@@ -11,7 +11,7 @@ public class DogGenetics
       Scanner in = new Scanner(System.in);
       System.out.print("What is your dog's name? ");
       String name = in.nextLine();
-      System.out.println("Well then, I have this highly reliable report on Sir Fluffy McFlufferkins Esquire's prestigious background right here.");
+      System.out.println("Well then, I have this highly reliable report on " + name + "'s prestigious background right here.");
       System.out.println();
       System.out.println(name + " is: ");
       System.out.println();
