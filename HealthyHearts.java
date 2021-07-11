@@ -8,7 +8,7 @@ public class HealthyHearts
       System.out.print("What is your age? ");
       int age = in.nextInt();
       int maxH = maxHeart(age);
-      System.out.println("Your maximum heart rate should be " + maxH + " bearts per minute");
+      System.out.println("Your maximum heart rate should be " + maxH + " beats per minute");
       int[] tarH = new int[2];
       tarH = tarHeart(tarH, maxH);
       System.out.println("Your target HR Zone is " + tarH[0] + " - " + tarH[1] + " beats per minute");
